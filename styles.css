@@ -1,0 +1,127 @@
+html {
+    height: 100%;
+    /*Image only BG fallback*/
+    
+    
+}
+
+body {
+    font-family: futura, arial, verdana;
+    /*background-color: #576366;*/
+    
+    
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+#msform{
+    padding: 10px;
+    opacity: 80%;
+}
+    
+.row{
+      display: flex;
+      justify-content: space-around;
+      padding: 10px;
+
+}
+      
+#msform input[type="text"]{
+          
+        appearance: none;
+        width: 100%;
+        margin: 2px 17px;
+        height: 45px;
+        padding: 5px 15px;
+        border-radius: 5px;
+        outline: none;
+        border: none;
+        background: #e8ebed;
+        color: #2C3E50;
+        font-size: 14px;
+        opacity: 100%;
+      }
+#msform fieldset {
+    background: grey;
+    border: 0 none;
+    border-radius: 15px;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+    padding: 25px 30px;
+    box-sizing: border-box;
+    width: 80%;
+    margin: 0 10%;
+    
+    /*stacking fieldsets above each other*/
+    position: relative;
+}
+
+
+/*Hide all except first fieldset*/
+
+/*inputs*/
+#msform input, #msform textarea {
+  padding: 90px;
+  border: 2px solid #ccc;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  width: 100%;
+  
+  font-family: futura;
+  color: #2C3E50;
+  font-size: 15px;
+  font-weight: bold;      
+  
+}
+
+#msform select, #msform option {
+  border: 0px solid #ccc;
+  border-radius: 0px;
+  margin-bottom: 20px;
+  width: 100%;
+  margin: 2px 17px;
+  padding: 5px 15px;
+  font-family: futura;
+  color: #2C3E50;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+
+
+/*buttons*/
+#msform .action-button {
+    width: 200px;
+    height: 50px;
+    background: #0A0A2A;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 1px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 5px;
+}
+#msform .action-button:hover, #msform .action-button:focus {
+    box-shadow: 0 0 0 2px white, 0 0 0 3px #27AE60;
+}
+/*headings*/
+.fs-title {
+    font-weight: bold;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #13426A;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.fs-subtitle {
+    font-weight: bold;
+    font-size: 13px;
+    color: #2C3E50;
+    margin-bottom: 20px;
+}
+input::placeholder{
+  opacity: 100%;
+  color: #2C3E50;
+}
